@@ -1,14 +1,31 @@
-const listItems = document.querySelectorAll(".header__nav-list-link");
+let stpbl1 = document.getElementById("stepbl1");
+let stepbrdr1 = document.getElementById("stepbrdr1");
 
-listItems.forEach((item) => {
-  item.addEventListener("click", (event) => {
-    removeItem();
-    event.target.classList.add("active");
-  });
-});
+let stpbl2 = document.getElementById("stepbl2");
+let stepbrdr2 = document.getElementById("stepbrdr2");
 
-function removeItem() {
-  listItems.forEach((item) => {
-    item.classList.remove("active");
-  });
-}
+let stpbl3 = document.getElementById("stepbl3");
+let stepbrdr3 = document.getElementById("stepbrdr3");
+
+stpbl1.onmouseover = function () {
+  stepbrdr1.style.bordererButtom = "3px solid white";
+};
+stpbl1.onmouseout = function () {
+  stepbrdr1.style.bordererButtom = "3px solid black";
+};
+
+stpbl2.onmouseover = function () {
+  stepbrdr2.style.bordererButtom = "3px solid white";
+};
+stpbl2.onmouseout = function () {
+  stepbrdr2.style.bordererButtom = "3px solid black";
+};
+
+stpbl3.onmouseover = function () {
+  stepbrdr3.style.bordererButtom = "3px solid white";
+};
+stpbl3.onmouseout = function () {
+  stepbrdr3.style.bordererButtom = "3px solid black";
+};
+
+console.log(stpbl1);
