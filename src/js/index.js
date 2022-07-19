@@ -8,24 +8,23 @@ let stpbl3 = document.getElementById("stepbl3");
 let stepbrdr3 = document.getElementById("stepbrdr3");
 
 stpbl1.onmouseover = function () {
-  stepbrdr1.style.bordererButtom = "3px solid white";
+  stepbrdr1.style.borderBottom = "3px solid white";
+  console.log(stepbrdr2);
 };
 stpbl1.onmouseout = function () {
-  stepbrdr1.style.bordererButtom = "3px solid black";
+  stepbrdr1.style.borderBottom = "3px solid black";
 };
 
 stpbl2.onmouseover = function () {
-  stepbrdr2.style.bordererButtom = "3px solid white";
+  stepbrdr2.style.borderBottom = "3px solid white";
 };
 stpbl2.onmouseout = function () {
-  stepbrdr2.style.bordererButtom = "3px solid black";
+  stepbrdr2.style.borderBottom = "3px solid black";
 };
 
 stpbl3.onmouseover = function () {
-  stepbrdr3.style.bordererButtom = "3px solid white";
+  stepbrdr3.style.borderBottom = "3px solid white";
 };
 stpbl3.onmouseout = function () {
-  stepbrdr3.style.bordererButtom = "3px solid black";
+  stepbrdr3.style.borderBottom = "3px solid black";
 };
-
-console.log(stpbl1);
